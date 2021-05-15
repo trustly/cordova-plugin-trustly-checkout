@@ -1,0 +1,25 @@
+{
+  "version": "1.0.0",
+  "name": "cordova-plugin-trustly-checkout",
+  "cordova_name": "Cordova Plugin Trustly Checkout",
+  "description": "The Trustly Checkout Cordova plugin provides an easy way to implement the Trustly Checkout into your Cordova project.",
+  "license": "MIT",
+  "main": "www/Trustly.js",
+  "repo": "",
+  "issue": "",
+  "author": "Trustly Group",
+  "repository": {
+	"type": "git",
+	"url": "https://github.com/trustly/cordova-plugin-trustly-checkout"
+  },
+  "keywords": [
+	"cordova",
+	"trustly",
+	"cordova-android",
+	"cordova-ios"
+  ],
+  "platforms": [
+	"android",
+	"ios"
+  ]
+}
