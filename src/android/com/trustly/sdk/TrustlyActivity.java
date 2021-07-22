@@ -31,8 +31,11 @@ public class TrustlyActivity extends Activity implements TrustlyEventHandler {
 		setContentView(trustlyView);
 	}
 
-	 @Override
+	@Override
   public void onTrustlyCheckoutSuccess(TrustlySDKEventObject eventObject) {
+		Intent result = new Intent();
+		setResult(Activity.RESULT_OK, result);
+		finish();
   }
 
   @Override
