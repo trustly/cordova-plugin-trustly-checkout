@@ -34,6 +34,7 @@ public class TrustlyActivity extends Activity implements TrustlyEventHandler {
 	@Override
   public void onTrustlyCheckoutSuccess(TrustlySDKEventObject eventObject) {
 		Intent result = new Intent();
+		result.setData(Uri.parse(eventObject.getUrl()));
 		setResult(Activity.RESULT_OK, result);
 		finish();
   }

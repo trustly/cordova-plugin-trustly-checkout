@@ -79,7 +79,7 @@ public class TrustlyPlugin extends CordovaPlugin {
 					respondWithError("error", "error");
 					break;
 				case TrustlyActivity.RESULT_OK:
-					PluginResult result = new PluginResult(PluginResult.Status.OK, "");
+					PluginResult result = new PluginResult(PluginResult.Status.OK, intent.getDataString());
 					this.cordovaCallbackContext.sendPluginResult(result);
 					break;
 				case TrustlyActivity.RESULT_CANCELED:
