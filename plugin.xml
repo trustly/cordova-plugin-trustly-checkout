@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		id="cordova-plugin-trustly-checkout"
-		version="1.0.0">
+		version="1.0.1">
 
 	<name>Trustly Checkout Cordova Plugin</name>
 	<description>The Trustly Checkout Cordova plugin provides an easy way to implement the Trustly Checkout into your Cordova app!</description>
@@ -14,7 +14,7 @@
 	<issue></issue>
 
 	<engines>
-		<engine name="cordova-android" version=">=9.0.0" />  
+		<engine name="cordova-android" version=">=9.0.0" />
 		<engine name="cordova-ios" version=">=6.1.1" />
 	</engines>
 
@@ -38,8 +38,8 @@
 
 		<config-file target="AndroidManifest.xml" parent="/*">
 			<uses-permission android:name="android.permission.INTERNET"/>
-		
-			
+
+
 		</config-file>
 
 		<source-file src="src/android/com/trustly/sdk/TrustlyPlugin.java" target-dir="src/com/trustly/sdk" />
