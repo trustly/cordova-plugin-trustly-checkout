@@ -24,7 +24,7 @@
 
 extension TrustlyPlugin: TrustlyCheckoutDelegate {
     func onTrustlyCheckoutRequstToOpenURLScheme(urlScheme: String) {
-        if let url = URL(string: "trustlytest://") {
+        if let url = URL(string: urlScheme) {
             if #available(iOS 10.0, *) {
                 UIApplication.shared.open(url, options: [:], completionHandler: nil)
             } else {
