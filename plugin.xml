@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		id="cordova-plugin-trustly-checkout"
-		version="1.0.1">
+		version="1.0.2">
 
 	<name>Trustly Checkout Cordova Plugin</name>
 	<description>The Trustly Checkout Cordova plugin provides an easy way to implement the Trustly Checkout into your Cordova app!</description>
